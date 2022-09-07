@@ -40,7 +40,7 @@ Mac only! It will update your slack status anytime your wifi network changes, ba
 
 ### 2. Create slackstatus.sh
 - Place file here: `~/Library/"Application Support"/slackstatus.sh`
-- Set `REPLACE_WITH_SLACK_TOKEN` to your slack token, generated here: https://api.slack.com/apps
+- Set `REPLACE_WITH_SLACK_TOKEN` to your slack token, generated here after you create your own app: https://api.slack.com/apps
     - You can find the token in `OAuth & Permissions` - It's called `User OAuth Token`
     - Add permission: user.profile:read
     - Add permission: user.profile:write
